@@ -18,6 +18,14 @@ window.Vue = require('vue');
  */
 
 Vue.component('project-component', require('./components/ProjectComponent.vue'));
+//
+// Vue.component('project-component', {
+//     // 이제 todo-item 컴포넌트는 "prop" 이라고 하는
+//     // 사용자 정의 속성 같은 것을 입력받을 수 있습니다.
+//     // 이 prop은 todo라는 이름으로 정의했습니다.
+//     props: ['project'],
+//     template: require('./components/ProjectComponent.vue')
+// })
 
 // const files = require.context('./', true, /\.vue$/i)
 
@@ -30,7 +38,6 @@ Vue.component('project-component', require('./components/ProjectComponent.vue'))
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
-
 const app = new Vue({
-    el: '#container'
-});
+    el: '#container',
+})

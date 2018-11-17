@@ -9,6 +9,8 @@
 
     <title>{{ config('app.name', 'Dev-life') }}</title>
 
+    <script src="{{ asset('js/dev-life-app.js') }}" defer></script>
+
     <!-- Styles -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
